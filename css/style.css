@@ -1,0 +1,40 @@
+.gradient-background {
+  background: linear-gradient( 70.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+  background-size: 50% 100%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.carousel-inner{
+  width: 400px;
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.slide{
+  background-color: #a3f0df;
+
+}
+.carousel-control-prev, .carousel-control-next{
+  transition: opacity .15s ease;
+}
+
+.container > .row{
+  padding-bottom: 100px;
+}
